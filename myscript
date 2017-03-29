@@ -1,0 +1,23 @@
+sphere
+250 0 0 125
+ident
+rotate
+y 90
+scale
+1 1.25 1
+move
+0 -110 0
+apply
+torus
+250 350 0 10 200
+ident
+rotate
+x 15
+apply
+sphere
+250 225 0 125
+sphere
+195 245 0 35
+sphere
+305 245 0 35
+display
