@@ -117,6 +117,11 @@ def parse_file( fname, edges, transform, screen, color ):
             print 'torus'
             add_torus(edges, float(args[0]), float(args[1]), float(args[2]), float(args[3]), float(args[4]), 0.01) 
 
+
+        elif line == 'clear':
+            edges = []
+            print 'CLEAR'
+            
         elif line == 'ident':
             ident(transform)
 
